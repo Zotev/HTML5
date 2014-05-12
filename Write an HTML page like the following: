@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Exercises (2)</title>
+    <style>
+        body {
+            font-family: Arial,Helvetica,sans-serif;
+        }
+
+        ol.a {
+            list-style-type: upper-roman;
+        }
+
+        ol.b {
+            list-style-type: lower-alpha;
+        }
+
+        ul.c {
+            list-style-type: circle;
+        }
+
+        ul.d {
+            list-style-type: square;
+        }
+
+        ul.f {
+            list-style-type: decimal;
+        }
+
+        ul.g {
+            list-style-type: disc;
+        }
+
+        a:link {
+            color: #83aca3;
+        }
+
+        a:visited {
+            color: #808080;
+        }
+
+        a:hover {
+            color: #0094ff;
+        }
+
+        a:active {
+            color: #d1c0c0;
+        }
+    </style>
+</head>
+<body>
+    <p>Preceding Text</p>
+    <ol class="a">
+        <li>List Item 1 
+            <ol class="b">
+                <li>Nested Item 1.1</li>
+                <li>Nested Item 1.2</li>
+            </ol>
+        </li>
+        <li>List Item 2 
+            <ol class="f">
+                <li>Nested Item 2.1</li>
+                <li>Nested Item 2.2
+                    <ul class="c">
+                        <li>Nested Item 2.2.1</li>
+                        <li>Nested Item 2.2.2
+                            <ul class="d">
+                                <li>Nested Item 2.2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+                            </ul>
+                        </li>
+                        <li>Nested Item 2.2.3</li>
+                    </ul>
+                    <li>Nested Item 2.3 </li>
+                </li>
+            </ol>
+        </li>
+        <li>List Item 3 
+            <ul class="g">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.1</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
